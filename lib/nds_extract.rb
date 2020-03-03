@@ -24,7 +24,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  nil = []
+  nil 
   result = {}
   director_index = 0
   while director_index < nds.length do
@@ -39,6 +39,7 @@ def directors_totals(nds)
   end
   return result
 end
+nil
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
